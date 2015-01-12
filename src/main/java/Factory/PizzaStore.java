@@ -2,7 +2,7 @@ package Factory;
 
 public abstract class PizzaStore {
 
-    void orderPizza(String type){
+    Pizza orderPizza(String type){
 
         Pizza pizza = createPizza(type);
 
@@ -10,6 +10,8 @@ public abstract class PizzaStore {
         pizza.bake();
         pizza.cut();
         pizza.box();
+
+        return pizza;
     }
 
     abstract Pizza createPizza(String type);

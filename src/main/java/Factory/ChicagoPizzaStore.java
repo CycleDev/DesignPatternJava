@@ -1,7 +1,12 @@
 package Factory;
 
-/**
- * Created by noprysk on 1/6/15.
- */
-public class ChicagoPizzaStore {
+public class ChicagoPizzaStore extends PizzaStore {
+
+    @Override
+    Pizza createPizza(String type) {
+        if (type.equals("chicagocheesse")){
+            return new ChicagoStyleCheesePizza();
+        }
+        return null;
+    }
 }
