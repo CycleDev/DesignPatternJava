@@ -25,6 +25,8 @@
         <module name="DesignPatternJava" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="DesignPatternJava" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
-
