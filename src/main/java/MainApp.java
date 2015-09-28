@@ -1,10 +1,10 @@
-import Observer.ObserverTest;
+import Command.RemoteControlTest;
 
 public class MainApp {
 
     public static void main(String[] args){
 
-        ObserverTest.test();
+        RemoteControlTest.test();
 
     }
 

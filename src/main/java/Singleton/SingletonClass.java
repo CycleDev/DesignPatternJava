@@ -11,7 +11,6 @@ public class SingletonClass {
     }
 
     public static SingletonClass getInstance(){
-
         return SingletonHolder.singleton;
     }
 

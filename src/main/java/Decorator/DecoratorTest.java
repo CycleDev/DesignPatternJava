@@ -4,9 +4,9 @@ import common.Beverage;
 import common.Coffe;
 import common.Tea;
 
-public class DecoratorMain {
+public class DecoratorTest {
 
-    public void test(){
+    public static void test(){
         Beverage beverage1 = new Coffe();
         System.out.println(beverage1.getDescription() + ": " + beverage1.cost());
 
